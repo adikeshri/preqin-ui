@@ -1,0 +1,97 @@
+/* styles/styles.css */
+
+/* Define primary and secondary colors */
+:root {
+  --primary-color: #1b0757;
+  --secondary-color: #ff69b4;
+  /* Pink */
+  --text-color: #f9f8f7;
+  /* White text color */
+}
+
+body {
+  background-color: #1b0757;
+  color: var(--primary-color);
+}
+
+.container {
+  padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+p{
+
+  color: var(--text-color);
+}
+
+table {
+  margin-top: 20px;
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+table tr:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+table tr{
+  background-color: var(--text-color);
+  color: black;
+  text-align: right;
+}
+
+table a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.investor-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.dropdown-toggle {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.dropdown-menu {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+}
+
+.dropdown-item {
+  color: var(--primary-color);
+}
+
+.dropdown-item:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
