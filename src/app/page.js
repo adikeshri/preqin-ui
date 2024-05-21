@@ -22,7 +22,7 @@ const HomePage = () => {
   return (
     <>
       {isLoadingInvestors ? (
-        <p>"Loading..."</p>
+        <p>Loading...</p>
       ) : (
         <Container>
           <h1>Investors</h1>
